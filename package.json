@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/Derimarg/note-taker/issues"
   },
-  "homepage": "https://github.com/Derimarg/note-taker#readme"
+  "homepage": "https://github.com/Derimarg/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "util": "^0.12.4",
+    "uuid": "^8.3.2"
+  }
 }

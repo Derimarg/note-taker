@@ -12,4 +12,9 @@ router.post('/notes', (req, res) => {
     saveNotesData.saveNote(req.body).then((note) => res.json(note)).catch(err => res.status(500).json(err));
 });
 
+// delete request
+router.delete('/notes/:id', function (req, res) {
+    saveNotesData.deleteNote(req.params.id).then(() => res.json({ ok: true })).catch(err => res.status(500).json(err));
+});
+
 module.exports = router;

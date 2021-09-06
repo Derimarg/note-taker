@@ -17,8 +17,10 @@
 <h3 align="center" id="note-taker">Note Taker</h3>
 
 <p align="center">
-Application that create notes, will use an Express.js back e...
+As a small business owner, I want to be able to write and save notes<br />
+so that I can organize my thoughts and keep track of tasks I need to complete
 <br />
+<br/>
 <a href="#how-to-download"><strong>Explore the docs »</strong></a>
 <br />
 <br />
@@ -57,21 +59,30 @@ Application that create notes, will use an Express.js back e...
   
 ## Description
   
-Application that create notes, will use an Express.js back end and will save and rtrieve note data from a JSON file.
+These is an app that create notes, will use an `Express.js` back end and will save and retrieve note data from a **JSON** file, following the next conditions.
 
+- Opening the **Note Taker app** a landing page with be link it to a notes page.
+- Clicking on the link to the notes page, a existing notes will be listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column.
+- Entering a new note title and the note’s text, a Save icon appears in the navigation at the top of the page.
+- Clicking on the Save icon, that new note I have entered is saved and appears in the left-hand column with the other existing notes.
+- Clicking on an existing note in the list in the left-hand column, that note appears in the right-hand column.
+- Clicking on the Plus icon in the navigation at the top of the page, empty fields to enter a new note title and the note’s text in the right-hand column will appears.
 
 ### Example:
   
-  ![Demo](.public/assets/images)
+  ![Demo](./public/assets/images/demo.gif)
 
 
 ## Technologies
 
+- HTML
+- CSS
 - Node.js
 - NPM
 - Express.js
 - uuid
 - Bootstrap
+- Fontawesome
 
 [Back To Top](#note-taker)
 
@@ -115,7 +126,7 @@ Before of using this application, is require to install dependencies, run the fo
 
   ## Usage
 
-  This is a open source program, feel free to use it, contact me to request features
+  This is a open source program, feel free to use it, contact me to request features.
 
 <!-- ROADMAP -->
 ## Roadmap

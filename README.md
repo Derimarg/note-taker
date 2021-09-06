@@ -80,7 +80,7 @@ These is an app that create notes, will use an `Express.js` back end and will sa
 - Node.js
 - NPM
 - Express.js
-- uuid
+- NPM uuid
 - Bootstrap
 - Fontawesome
 
